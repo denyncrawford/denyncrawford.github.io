@@ -1,0 +1,117 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+#chat {
+
+  width: 200px;
+  height: 350px;
+  background-color: rgb(222, 222, 222);
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+  border-radius: 12px;
+
+}
+
+.title {
+
+  width: 100%;
+  height: 30px;
+  background-color: rgb(81, 138, 158);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  text-align: center;
+
+}
+
+.title h1 {
+
+  font-size: 15px;
+  color: white;
+  padding-top: 5px;
+
+}
+
+.input-box {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(195, 195, 195);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+
+}
+
+.input-box input {
+
+  height: 25px;
+  width: 70%;
+  margin-left: 10px;
+  margin-top: 13px;
+  background-color: rgb(81, 138, 158);
+  border: none;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: white;
+
+}
+
+.input-box button {
+
+  margin-left: 5px;
+  height: 25px;
+  width: 35px;
+  border: none;
+  background-color: rgb(81, 138, 158);
+  color: white;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.mssage-box {
+
+  width: 180px;
+  height: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.message-oside {
+
+  float: left;
+  max-width: 90%;
+  border-radius: 12px;
+  background-color: rgb(232, 232, 232);
+  padding: 5px 7px 5px 7px;
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+
+}
+
+.message-myside {
+
+  float: right;
+  margin-top: 10px;
+  max-width: 80%;
+  border-radius: 12px;
+  background-color: rgb(81, 138, 158);
+  padding: 5px 7px 5px 7px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+
+}
